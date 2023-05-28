@@ -1,0 +1,126 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.padding {
+  padding: 8vh;
+}
+
+.colorTitle{
+  color: #282c34;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.background-image{
+  background-image: url(https://res.cloudinary.com/datdo8t9v/image/upload/c_scale,w_824/v1683148767/top-ocho-8-herramientas-para-comenzar-en-la-pintura-ahora-en-casa-2020_tsqu1e.png);
+}
+
+.form{
+  background-color: #ffff8d;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem 0 #fff;
+}
+.sombra{
+  box-shadow: 0 0 1rem 0 #fff;
+}
+.paddingTop{
+  padding-top: 2rem;
+}
+.paddingBottom{
+  padding-bottom: 2rem;
+}
+.paddingTopInput{
+  padding-top: 0.5rem;
+}
+.paddingBottomInput{
+  padding-bottom: 0.5rem;
+}
+.wrapper {
+  display: grid;
+}
+.precioFinal{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+.precioFinalContenedor{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: #282c34 1px solid;
+  border-radius: 6px;
+  background-color: #ffffff;
+  text-align: center;
+  justify-content: center; 
+}
+.precioFinalSumaTotal{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: #282c34 1px solid;
+  border-radius: 6px;
+  background-color: #ffff8d;
+  text-align: center;
+  justify-content: center;
+}
+.precioFinalSumaTotalLetra{
+  color: black;
+  font-weight: bold;
+  font-style: inherit;
+}
+.contenedorPrecioFinalSumatoria{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: #282c34 1px solid;
+  border-radius: 6px;
+  background-color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+.contenedorPdf{
+ display: flex;
+ flex-direction: column;
+ margin-top: 10px;
+ z-index: 900;
+ width: 80%;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ border: 1px solid #282c34;
+}
+.centrar{
+  text-align: center;
+  justify-content: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
